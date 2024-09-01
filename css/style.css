@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+h1, h2 {
+    color: #007bff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+.carousel-inner img {
+    height: 500px;
+    object-fit: cover;
+}
+
+.container {
+    max-width: 900px;
+}
+
+/* Estilos para la barra de navegación */
+.navbar {
+    background-color: #00C2C7 !important; /* Color verde Tiffany */
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link {
+    color: white !important; /* Color de texto blanco */
+    font-weight: 500; /* Peso de fuente Medium Bold */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f0f0f0 !important; /* Color de texto en hover */
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: #00C2C7 !important; /* Color verde Tiffany */
+    color: white !important; /* Color de texto blanco */
+    font-weight: 500; /* Peso de fuente Medium Bold */
+    padding: 1rem 0; /* Padding para el footer */
+}
+
+footer p {
+    margin: 0; /* Elimina el margen por defecto */
+}
+
+
+/* Estilos personalizados para el carrusel */
+
+/* Cambiar color de los controles del carrusel */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #87CEEB; /* Azul cielo */
+}
+
+/* Cambiar color de los indicadores del carrusel */
+.carousel-indicators li {
+    background-color: #87CEEB; /* Azul cielo */
+}
+
+.carousel-indicators .active {
+    background-color: #4ca3dd; /* Azul cielo más oscuro para el indicador activo */
+}
+
+/* Estilos adicionales para una visualización fluida y responsiva */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Bordes redondeados para las imágenes */
+}
+
+/* Estilo general del contenedor del carrusel */
+.carousel-inner {
+    border-radius: 8px; /* Bordes redondeados para el contenedor del carrusel */
+}
+
+/* Asegurar que el carrusel se mantenga responsivo */
+.carousel-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos personalizados para centrar y ajustar el tamaño de los videos */
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.video-container iframe {
+    max-width: 100%;
+    width: 640px; /* Ajusta el ancho según sea necesario */
+    height: 360px; /* Ajusta la altura según sea necesario */
+    border-radius: 8px; /* Opcional: Bordes redondeados para los videos */
+}
+
+/* Estilos para el carrusel */
+.carousel-inner img {
+    border-radius: 8px; /* Opcional: Bordes redondeados para las imágenes del carrusel */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #87CEEB; /* Azul cielo */
+}
+
+/* Estilos para centrar videos */
+.video-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.video-container iframe {
+    max-width: 100%;
+    width: 640px; /* Ajusta el ancho según sea necesario */
+    height: 360px; /* Ajusta la altura según sea necesario */
+    border-radius: 8px; /* Opcional: Bordes redondeados para los videos */
+}
+
+/* Estilo para el pie de página */
+footer {
+    background-color: #f8f9fa; /* Color de fondo claro */
+    padding: 10px 0;
+}
